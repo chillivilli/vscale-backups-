@@ -8,7 +8,7 @@ CURL="`which curl`"
 
 #check utils
 if [ -z "$CURL" ]; then
-    ehco "no curl plz install first"
+    echo "no curl plz install first"
 exit 1
 fi
 
